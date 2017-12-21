@@ -134,3 +134,22 @@ footer{
 	background-color: #666666;
 	padding: 20px;
 }
+@media screen and (max-width: 980px){
+	aside{
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+	main{
+		width: 800px;
+	}
+}
+@media screen and (max-width: 768px){
+		main{
+		width: 600px;
+	}
+}
+@media screen and (max-width: 640px){
+	main{
+		width: 400px;
+	}
+}
